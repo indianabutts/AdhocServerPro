@@ -14,7 +14,6 @@
  * You should have received a copy of the GNU General Public License
  * along with PRO ONLINE. If not, see <http://www.gnu.org/licenses/ .
  */
-
 #include <stdio.h>
 #include <string.h>
 #include <signal.h>
@@ -23,6 +22,7 @@
 #include <malloc.h>
 #endif
 
+#include <unistd.h>
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <netinet/in.h>

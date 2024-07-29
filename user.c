@@ -25,7 +25,8 @@
 #include <status.h>
 #include <config.h>
 #include <sqlite3.h>
-
+#include <unistd.h>
+#include <sys/socket.h>
 #include <pipe.h>
 
 
